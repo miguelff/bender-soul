@@ -1,6 +1,7 @@
 package com.example.models;
 
 import org.junit.Test;
+import org.miguelff.hubotai.models.Time;
 
 import java.util.TimeZone;
 

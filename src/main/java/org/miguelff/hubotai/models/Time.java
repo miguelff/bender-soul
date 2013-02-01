@@ -1,4 +1,4 @@
-package com.example.models;
+package org.miguelff.hubotai.models;
 
 import javax.xml.bind.annotation.XmlRootElement;
 import java.util.Calendar;
