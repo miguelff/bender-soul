@@ -1,14 +1,13 @@
-# JAX-RS Template Application
+#bender-brain-ws#
 
-This is a template for a lightweight RESTful API using JAX-RS. The sample code is a call for getting the current time.
-    
-## Running the application locally
+This toy project is a simple HTTP endpoint to conversate with an AI
 
-First build with:
+The real brain in Bender is [my simplified fork](https://github.com/miguelff/program-ab/tree/lite-0.0.1) of [program-ab] (https://code.google.com/p/program-ab/), the AI behind [Alice the bot](http://www.pandorabots.com/pandora/talk).
 
-    $mvn clean install
+I have made this to give a soul to bender, which is the [hubot](http://hubot.github.com/) we have at [BeBanjo](http://www.bebanjo.com).
 
-Then run it with:
+##build bender-brain##
+TODO
 
-    $ java -cp target/classes:target/dependency/* com.example.Main
-
+##screenshots##
+TODO
