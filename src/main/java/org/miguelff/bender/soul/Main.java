@@ -1,4 +1,4 @@
-package org.miguelff.hubotai;
+package org.miguelff.bender.soul;
 
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.webapp.WebAppContext;

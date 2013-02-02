@@ -1,4 +1,4 @@
-package org.miguelff.hubotai.services;
+package org.miguelff.bender.soul.services;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -8,7 +8,8 @@ import javax.ws.rs.core.MediaType;
 
 import org.alicebot.ab.Bot;
 import org.alicebot.ab.Chat;
-import org.miguelff.hubotai.models.TranscriptItem;
+import org.miguelff.bender.soul.models.LRUCache;
+import org.miguelff.bender.soul.models.TranscriptItem;
 
 @Path("/talk")
 @Produces(MediaType.APPLICATION_JSON)

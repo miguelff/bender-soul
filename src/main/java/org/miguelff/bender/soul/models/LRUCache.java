@@ -1,4 +1,4 @@
-package org.miguelff.hubotai.services;
+package org.miguelff.bender.soul.models;
 
 import java.util.LinkedHashMap;
 import java.util.Collection;

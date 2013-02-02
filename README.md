@@ -1,4 +1,4 @@
-#bender-brain-ws#
+#bender-soul#
 
 This toy project is a simple HTTP endpoint to conversate with an AI
 
@@ -6,7 +6,7 @@ The real brain in Bender is [my simplified fork](https://github.com/miguelff/pro
 
 I have made this to give a soul to bender, which is the [hubot](http://hubot.github.com/) we have at [BeBanjo](http://www.bebanjo.com).
 
-##build bender-brain##
+##build bender-soul#
 TODO
 
 ##screenshots##

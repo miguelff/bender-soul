@@ -1,4 +1,4 @@
-package org.miguelff.hubotai.models;
+package org.miguelff.bender.soul.models;
 
 import javax.xml.bind.annotation.XmlRootElement;
 import java.util.Calendar;
