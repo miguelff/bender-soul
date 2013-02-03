@@ -1,1 +1,1 @@
-web: java -cp target/classes:target/dependency/* org.miguelff.hubotai.Main
+web: java -cp target/classes:target/dependency/* org.miguelff.bender.soul.Main

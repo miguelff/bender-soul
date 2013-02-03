@@ -52,11 +52,11 @@
 			<scope>test</scope>
 		</dependency>
 
-		<!-- THE BRAIN -->
+		<!-- Program-ab -->
 		<dependency>
 			<groupId>org.miguelff</groupId>
 			<artifactId>program-ab</artifactId>
-			<version>0.0.1-lite</version>
+			<version>0.0.2-SNAPSHOT</version>
 		</dependency>
 
 	</dependencies>
