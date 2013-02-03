@@ -10,13 +10,9 @@
 	</properties>
 	<repositories>
 		<repository>
-			<id>miguelff.mvn.repo</id>
-			<url>https://github.com/miguelff/mvn-repo/raw/master</url>
-			<!-- use snapshot version -->
-			<snapshots>
-				<enabled>true</enabled>
-				<updatePolicy>always</updatePolicy>
-			</snapshots>
+			<id>project.local</id>
+			<name>project</name>
+			<url>file:${project.basedir}/repo</url>
 		</repository>
 	</repositories>
 	<dependencies>
