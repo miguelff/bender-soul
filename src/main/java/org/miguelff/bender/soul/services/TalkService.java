@@ -15,7 +15,7 @@ import org.miguelff.bender.soul.models.TranscriptItem;
 @Produces(MediaType.APPLICATION_JSON)
 public class TalkService {
 		
-	private final static Bot bender = new Bot("Bender", "chat");
+	private final static Bot bender = new Bot("bender", "chat");
 	
 	private final LRUCache<String, Chat> chats = new LRUCache<String, Chat>(100);
 

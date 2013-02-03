@@ -2,6 +2,8 @@ package org.miguelff.bender.soul;
 
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.webapp.WebAppContext;
+import org.miguelff.alicebot.ab.ResourceProvider;
+import org.miguelff.alicebot.ab.io.IOResourceProvider;
 
 /**
  *
@@ -16,7 +18,11 @@ public class Main {
      * @param args
      */
     public static void main(String[] args) throws Exception{
-        String webappDirLocation = "src/main/webapp/";
+        // Force configuration loading for the brain of the bot
+    	@SuppressWarnings("unused")
+		IOResourceProvider io = ResourceProvider.IO;
+    	
+    	String webappDirLocation = "src/main/webapp/";
 
         // The port that we should run on can be set into an environment variable
         // Look for that variable and default to 8080 if it isn't there.
